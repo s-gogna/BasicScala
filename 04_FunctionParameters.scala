@@ -22,5 +22,5 @@ object FunctionParameters
 
   // Define a function that takes two parameters of type int and returns
   // the sum of squares
-  def sumOfSquares(first: Int, second: Int) = (first * first) + (second * second)
+  def sumOfSquares(first: Int, second: Int): Double = (first * first) + (second * second)
 }
