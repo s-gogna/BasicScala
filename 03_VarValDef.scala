@@ -19,5 +19,8 @@ object VarValDef
   }
 
   // def is used to define a function
-  def myFunc = println("Im in myFunc!")
+  // The extra " : Unit" at the end indicates the return type. A return type of "Unit" is
+  // similar to returning "void" in Java or C++. The compiler is often smart enough that
+  // you do not need to include it, but it will require it in some cases
+  def myFunc: Unit = println("Im in myFunc!")
 }
