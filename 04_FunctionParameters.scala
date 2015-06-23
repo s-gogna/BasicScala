@@ -3,17 +3,17 @@ object FunctionParameters
   def main(args: Array[String])
   {
     // Use the functions
-    val apple = doubleMyInt(5)
-    println("Apple is: " + apple)
+    val alpha = doubleMyInt(5)
+    println("alpha is " + alpha)
 
-    val book = doubleMyInt(12)
-    println("Book is: " + book)
+    val beta = doubleMyInt(12)
+    println("beta is " + beta)
 
-    val cat = sumOfSquares(2, 3)
-    println("Cat is: " + cat)
+    val gamma = sumOfSquares(2, 3)
+    println("gamma is " + gamma)
 
-    // It's not needed to save the value
-    println( "Sum of squares for apple and book is: " + sumOfSquares(apple, book) )
+    // It's not always needed to save the value
+    println( "Sum of squares for alpha and beta is: " + sumOfSquares(alpha, beta) )
   }
 
   // Define a function that takes one parameter of type int and returns

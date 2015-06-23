@@ -3,13 +3,13 @@ object ConditionalExpression
   def main(args: Array[String])
   {
     // Use the functions
-    println("neverNegative(5): " + neverNegative(5))
-    println("neverNegative(0): " + neverNegative(0))
-    println("neverNegative(-3): " + neverNegative(-3))
+    println("neverNegative(5) is " + neverNegative(5))
+    println("neverNegative(0) is " + neverNegative(0))
+    println("neverNegative(-3) is " + neverNegative(-3))
 
-    println("printSign(2.2): " + printSign(2.2))
-    println("printSign(0): " + printSign(0))
-    println("printSign(-5.7): " + printSign(-5.7))
+    println("printSign(2.2) is " + printSign(2.2))
+    println("printSign(0) is " + printSign(0))
+    println("printSign(-5.7) is " + printSign(-5.7))
   }
 
   // Define a function that takes one parameter of type Int and returns

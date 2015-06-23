@@ -3,7 +3,7 @@ object NestedFunctions
   def main(args: Array[String])
   {
     // What is the square root of 144?
-    println( "Square root of 144 is: " + sqrtWithNewtonsMethods(144.0) )
+    println( "Square root of 144 is " + sqrtWithNewtonsMethods(144.0) )
   }
 
   // Define a function that takes one parameter of type Double

@@ -19,6 +19,6 @@ object Numbers
   	val numTwo = (1).+( ( (3)./(2.0) ).*(4) )
 
   	// Are the two values equal?
-  	println("Is numOne == numTwo ?: " + (numOne == numTwo))
+  	println("Is numOne == numTwo ? " + (numOne == numTwo))
   }
 }
