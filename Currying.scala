@@ -4,10 +4,18 @@ object Currying
   {
     // alpha will have a function assigned to it as a return value from this call
     val alpha = giveMeAFunction( () => 5 )
-    alpha("This is my prefix. (", ") This is my suffix.")
+    alpha("Prefix (", ") Suffix")
 
     // It's not neccesary to save the returned function to a var or val !
-    giveMeAFunction( () => (3 * 6) )("This is my other prefix. (", ") This is my other suffix.")
+    giveMeAFunction( () => (3 * 6) )("Prefix (", ") Suffix")
+
+    // Let's use the other way to curry. However, this needs the underscore character (which has
+    // a special meaning as a placeholder)
+    val beta = anotherWayToCurry(18) _
+    beta("Prefix (", ") Suffix")
+
+    // Like before, this also works
+    anotherWayToCurry(24)("Prefix (", ") Suffix")
   }
 
   // This takes a function, funct, as a parameter which will be applied to 5
@@ -23,5 +31,12 @@ object Currying
 
     // This the the return value of the function (notice that it itself is a function)
     printTheResult
+  }
+
+  // This does the same thing as 'giveMeAFunction'. Notice that is has multiple parentheses
+  // for the parameters.
+  def anotherWayToCurry(value: Int)(prefix: String, suffix: String) = 
+  {
+    println(prefix + value + suffix)
   }
 }
