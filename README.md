@@ -26,3 +26,4 @@ Want an ordered way to go through the repo?
 14. Lists
 15. Tuples
 16. Sets
+17. Maps
