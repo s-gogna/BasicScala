@@ -20,6 +20,7 @@ Want an ordered way to go through the repo?
 8. NestedFunctions
 9. StringInterpolation
 10. FirstClassFunctions
-12. AnonymousFunctions
-13. Currying
-14. Classes
+11. AnonymousFunctions
+12. Currying
+13. Classes
+14. Lists
