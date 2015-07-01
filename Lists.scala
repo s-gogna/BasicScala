@@ -31,6 +31,10 @@ object Lists
     // is being called by the right operand
     val epsilon = 0 :: 1 :: 2 :: 3 :: Nil
     println("List epsilon is " + epsilon)
+    println("Epsilon head is " + epsilon.head)
+    println("Epsilon tail is " + epsilon.tail)
+    println("Epsilon reversed is " + epsilon.reverse)
+    println("Epsilon filtered is " + epsilon.filter(n => n > 2))
 
     // There are many other functions that can be called with lists.
     // For a list, refer to the Scala documentation on immutable
