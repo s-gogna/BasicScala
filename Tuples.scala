@@ -17,7 +17,7 @@ object Tuples
     println("Tuple of 5 elements: " + gamma)
 
     // Accessing elements in tuples is as simple as a method call
-    println("First element of alpha is " + alpha._1 )
-    println("Third element of gamma is " + gamma._3 )
+    println("First element of alpha is " + alpha._1)
+    println("Third element of gamma is " + gamma._3)
   }
 }
