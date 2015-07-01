@@ -14,6 +14,15 @@ object Arrays
     arrayOfInts(1) = 4
     arrayOfDoubles(3) = 4.2
 
+    // Scala treats the indexing as a function call
+    // Indexing can also be done by using the apply() function
+    println( "Using apply(), the value in the array is " + arrayOfInts.apply(0) )
+
+    // Using apply() doesn't work for assignment, but there
+    // is another function to update the value
+    arrayOfInts.update(0, 2)
+    println( "After using update(), the value in the array is " + arrayOfInts(0) )
+
     // How can I print my array?
     for(i <- 0 to 9)
     {
