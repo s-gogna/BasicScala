@@ -7,6 +7,8 @@ I will add links to various resources as I find them.
 
 - [Scala By Example](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
 - [Programming in Scala, First Edition](http://www.artima.com/pins1ed/index.html)
+- [Scala School](https://twitter.github.io/scala_school/index.html)
+- [Scala Tutorial](http://tutorials.jenkov.com/scala/index.html)
 
 Want an ordered way to go through the repo?
 -------------------------------------------
